@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(154, 136, 124);
+}
+
+#splashScreen {
+    background-image: url("./Images/stocksnap-coffeehouse-2600877_1920.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 720px;
+    align-items: center;
+}
+
+#aboutUs img {
+    width: 100%;
+    height: auto;
+}
+
+.product {
+    display: inline-block;
+    width: 30vw;
+    height: 45vh;
+    vertical-align: top;
+
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+.product h3 {
+    margin: 0;
+    padding: 20px;
+}
+
+.product p {
+    padding: 20px;
+}
