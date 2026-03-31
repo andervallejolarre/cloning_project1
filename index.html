@@ -10,18 +10,18 @@
 
 <body>
     <!-- Top Bar -->
-    <div>
+    <div id="navBar">
         <!-- Website's Name -->
         <h1>Caminito Coffee</h1>
         <!-- Navigation Menu-->
         <nav>
             <ul>
                 <!-- CoffeShop -->
-                <li>Coffe Shop</li>
+                <li><a href="#CoffeShop">Coffe Shop</a></li>
                 <!-- About Us -->
-                <li>About Us</li>
+                <li><a href="#About">About Us</a></li>
                 <!-- Season Coffees -->
-                <li>Season Coffees</li>
+                <li><a href="#Coffee">Season Coffees</a></li>
             </ul>
             <!-- End Navigation Menu-->
         </nav>
@@ -30,17 +30,19 @@
 
     <!-- Splash screen -->
     <section id="splashScreen">
+        <div>
         <!-- Main slogan -->
         <h1>From the Farm to Your Table</h1>
         <!-- Secondary slogan-->
         <h2>Fresh Roasted Beans</h2>
         <!-- Call to action -->
         <button>Get our monthly subscription</button>
+        </div>
         <!-- Image 
         <img src="./Images/bbom100892-cafe-7454967_1920.jpg" alt="Coffee Shop">-->
         <!-- End splash screen -->
     </section>
-    <section>
+    <section id="location">
         <!-- Coffee Shop Section -->
         <!-- Header -->
         <h2>Our Coffe Shop</h2>
@@ -60,35 +62,41 @@
     <section id="aboutUs">
         <!-- About Us Section -->
         <!-- Header -->
+         <div>
         <h2>About Us</h2>
         <!--Description -->
         <p>We are a talented team working 24/7 on finding outstanding coffees to roast them at our station and
             have it at your disposal at our Lab.
         </p>
-        <!-- Baristas -->
+        </div>
+        <!-- Here we get two columns Left: BrewLab Right: RoastStation-->
+        <!-- We start with left side Img Baristaside -->
+        <img src="./Images/clarocafe-speciality-coffee-4568579_1920.jpg" alt="Brew Lab">
+        <!-- Then right side Img Roaster-->
+        <img src="./Images/46173-coffee-1044387_1920.jpg" alt="Roaster Station">
+                <!-- Now left side Baristas info -->
+                 <div>
         <h3>Brewing Lab</h3>
-        <!-- Description about our vision-->
+        <!-- Description -->
         <p>In Caminito we've designed an specilized lab to prepare our high quality drinks.
             Here our baristas, with their knowledge and skills can take all the sensorial information of each
             coffee and brew it into the perfect cup. They Will guide you between the different brewing methods
             to match the coffee and your prefferences.
         </p>
-        <!-- Img Baristaside -->
-        <img src="./Images/clarocafe-speciality-coffee-4568579_1920.jpg" alt="Brew Lab">
-        <!-- End Baristas -->
-        <!-- Roasters -->
+        <!-- Finaly right side Roasting info -->
+        </div>
+        <div>
+            <!-- Roasters -->
         <h3>Roasting Station</h3>
-        <!-- Description about our vision-->
+        <!-- Description -->
         <p>Roasting three days a week so we can meet our customers demands and have always fresh
             roasted beans to brew at our Lab. You can see some of our members working here from the lab
             and trying the upcoming beans.
         </p>
-        <!-- Img Roaster-->
-        <img src="./Images/46173-coffee-1044387_1920.jpg" alt="Roaster Station">
-        <!-- End Roasters -->
+    </div>
         <!-- End About Us Section -->
     </section>
-    <section>
+    <section id="coffee">
         <!-- Season Coffees Section -->
         <!-- Heading-->
         <h2>Season Coffees</h2>
@@ -133,17 +141,17 @@
         </div>
         <!-- Ende Coffee 3-->
         <!-- End Season Coffees Section-->
-         <!-- Back to Top link -->
-          <a href="">Back to Top</a>
     </section>
+             <!-- Back to Top link -->
+          <a class="backToTop" href="">Back to Top</a>
     <footer>
         <!-- Footer -->
         <!-- Copyrigth -->
         <p>(c) 2026 All rights reserved</p>
         <!-- Adress -->
-        <p>Avinguda Vallcarca 127, 08023 Barcelona, Spain</p>
+        <address>Avinguda Vallcarca 127, 08023 Barcelona, Spain</address>
         <!-- Phone -->
-        <p>+34 9000483623</p>
+        <p>Phone: <a href="tel:+34698765432">+34 698765432</a></p>
         <!-- Schedule -->
         <p>Open L - V : 9h 00m to 19h 00m Weekend : 10h 00m to 18h 00m</p>
         <!-- End Footer -->
