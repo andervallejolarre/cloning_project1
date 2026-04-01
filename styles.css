@@ -38,10 +38,19 @@ li a:hover {
     background-repeat: no-repeat;
     min-height: 720px;
     text-align: center;
+    align-content: center;
 }
 
-#splashScreen h1{
+.box{
+    display: inline-block;
+    background-color: #222222;
+    padding:2em;
+
+}
+
+.insideBox {
     margin-top:0;
+    color: rgb(154, 136, 124);
 }
 
 #location{
@@ -51,6 +60,7 @@ li a:hover {
 
 #location iframe{
     width: 80%;
+    max-width: 810px;
 }
 
 #aboutUs {
